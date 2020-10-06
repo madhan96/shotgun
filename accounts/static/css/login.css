@@ -1,0 +1,233 @@
+.login-bg {
+    background: url('../assets/images/login-bg.jpg') center center no-repeat;
+    background-size: cover;
+}
+.login-page {
+    position: fixed !important;
+    width: 100% !important;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-family: Roboto;
+}
+
+.login-page .main-logo-div {
+    margin: 30px 0px;
+}
+
+.main-logo-div img {
+    width: 13%;
+}
+
+.m-a {
+    margin: 20px!important;
+}
+.lang-sel {
+    top: 0;
+    right: 0;
+    position: absolute!important;
+}
+
+.lang-sel select:not(:focus) {
+    opacity: .6;
+}
+.lang-sel select {
+    -webkit-transition: .2s all;
+    -o-transition: .2s all;
+    transition: .2s all;
+    font-size:0.875em;
+}
+.custom-select-sm {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.custom-select {
+    display: inline-block;
+    padding: 3px 36px 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    vertical-align: middle;
+    /*background: url(../assets/images/arrow.png) right 12px center no-repeat #fff;*/
+    background-clip: padding-box;
+    background-size: 8px 10px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none \9;
+    padding-right: 12px \9;
+    
+}
+
+.login-page .content-center {
+    text-align: center;
+    top: 130px;
+    position: relative;
+}
+
+.login-page .company_detail {
+    color: #fff;
+    text-align: left;
+}
+
+.login-page .invoxlogo img {
+    width: 50%;
+}
+
+.login-page .company_detail h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin: 1em 0em;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+.login-page .company_detail p {
+    opacity: 0.6;
+    font-weight: 300;
+    margin: 1em 0em;
+    font-size: 1em;
+}
+
+.login-page .footer {
+    padding: 0.5em 0;
+}
+
+.login-page .footer ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.login-page .footer ul li {
+    display: inline-block;
+}
+
+.footer ul li:first-child a {
+    padding-left: 0px;
+}
+
+.footer ul li a {
+    color: inherit;
+    padding: .5rem;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card-plain {
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 3em 2em;
+    background: #fff;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+}
+.card-plain .heading h2 {
+    margin: 0;
+    font-size: 1.8em;
+    margin-bottom: 0.4em;
+}
+
+.card-plain .form {
+    padding: 0.5em 0em;
+}
+
+.card-plain .form .text-box {
+    border: 1px solid #ccc;
+    height: 3em;
+    box-shadow: none;
+}
+
+.card-plain .form .text-box::-ms-clear {
+    display: none;
+}
+
+.card-plain .password-block {
+    display: block;
+    position: relative;
+}
+
+.card-plain .forgot {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 12px;
+    color: #00acf4 !important;
+}
+
+.card-plain-footer .login-button, .card-plain-footer .logging_button {
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    padding: 0.5em;
+    background-color: #00acf4;
+    color: white;
+    font-size: 1.2em;
+}
+
+.card-plain-footer .login-button:disabled {
+    background-color: #6d6d6d !important;
+    cursor: default;
+}
+
+.logging_button{
+    display: none;
+    background-color: #6d6d6d !important;
+    cursor: default;
+}
+
+.error_form {
+    border: 1px solid red !important;
+}
+
+#login_status_msg_div {
+    padding-top: 0.75rem;
+}
+
+.login_failed_msg {
+    color: green;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 1.3rem;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.login_failed_msg {
+    color: red !important;
+}
+
+.footer-link {
+    margin: 1em 0;
+}
+
+.footer-link a {
+    color: #00acf4 !important;
+}
+
+.error_msg_login{
+    height:15px;
+}
+
+.login_form .error_msg{
+    text-align:left;
+    font-size: 12px;
+    color:red;
+    display: none;
+    height:20px;
+}
+
+.login_form .error_msg_dj{
+    text-align:left;
+    font-size: 12px;
+    color:red;
+    display: block;
+    height:20px;
+}

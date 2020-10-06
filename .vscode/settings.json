@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "D:\\django_channel\\Scripts\\python.exe",
+    "python.formatting.provider": "black",
+    "html.format.enable": false,
+}
